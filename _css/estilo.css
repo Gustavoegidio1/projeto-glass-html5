@@ -1,0 +1,518 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@font-face {
+    font-family: 'fontecomputer';
+    src: url("../_fonts/Ethnocentric-Regular.otf");
+}
+
+   
+   /*Formatação do header*/
+
+   header#cabecalho {
+     border-bottom: 1px black solid;
+     height: 150px;
+     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+   header#cabecalho h1 {
+     font-family: "fontecomputer", sans-serif;
+     font-size: 25pt;
+     color: #606060;
+     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+     padding: 0px;
+     margin-bottom: 0px;
+
+}
+
+   header#cabecalho h2 {
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 13pt;
+     color: #888888;
+     padding: 0px;
+     margin-top: 0px;
+
+}
+
+   p { 
+      text-align: justify;
+      text-indent: 20px;
+}
+
+   body {
+    background-color: #ddd;
+  }
+
+/*Formatação interface*/
+
+   div#interface {
+      background-color: white;
+      margin: -20px auto 0px auto;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+      width: 900px;
+      padding: 20px
+   }
+
+
+/* Formatção da Foto-Legenda */
+
+   figure.foto-legenda {
+    position: relative;
+   	border: 7px solid white;
+   	box-shadow: 1px 1px 4px black;
+   }
+  
+   figure.foto-legenda img {
+
+   	 width: 100%;
+   	 height: 100%;
+   }
+
+   figure.foto-legenda figcaption {
+       opacity: 0;
+       position: absolute;
+       top: 0px;
+       color: white;
+       background-color: rgba(0,0,0,0.4);
+       width: 100%;
+       height: 100%;
+       padding: 10px;
+       box-sizing: border-box;
+       transition: opacity 1s;
+
+   }
+
+   figure.foto-legenda:hover figcaption {
+      opacity: 1; }
+
+
+/* Formatação do Menu */
+
+nav#menu {
+  display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 640px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #ddd;
+    padding: 6px;
+    margin: 2px;
+    transition: background-color 1s;
+  }
+
+nav#menu li:hover {
+    background-color: #606060;
+  }
+
+nav#menu h1 {
+   display: none;
+}
+
+nav#menu a {
+  color: black;
+  text-decoration: none;
+}
+nav#menu a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/*Formatação de hgroup#informations*/
+
+hgroup#informations {
+  display: block;
+  height: 100px;
+  width: 500px ;
+}
+
+hgroup#informations h3 {
+  color: rgba(0,0,0,0.3);
+  font-family: 'Tittilium Web', sans-serif;
+  font-size: 10pt;
+}
+
+hgroup#informations h4 {
+  color: rgba(0,0,0,0.3);
+  font-size: 10pt;
+  font-family: arial;
+  position: relative;
+  padding: 0px;
+  top: -7px;
+}
+
+hgroup#informations h2{
+  font-family: 'fontecomputer';
+  color: #888888;
+  font-size: 13pt;
+  padding: 0px;
+  position: relative;
+  top: 13px;
+}
+
+hgroup#informations h6{
+  color: rgba(0,0,0,0.6);
+  padding: 0px;
+  position: relative;
+  top: -15px;
+  left: 360px;
+}
+
+/*Formatação Imagem Oculospeq*/
+
+img#icone {
+  position: absolute;
+  left: 1050px;
+  top: 75px;
+}
+
+/*Formatação da section#corpo*/
+
+section#corpo {
+  display: block;
+  width: 500px;
+  float: left;
+  border-right: 1px solid black;
+  padding-right: 15px;
+}
+
+aside#lateral {
+  display: block;
+  width: 350px;
+  float: right;
+}
+
+footer#rodape {
+  clear: both;
+  border-top: 1px solid black;
+}
+
+footer#rodape p {
+  text-align: center;
+}
+
+/*Formatação da Tabela*/
+
+table#tabelaespec {
+  border: 1px solid black;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#tabelaespec td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+ table#tabelaespec td.ce {
+  background-color: #606060;
+  font-family: arial;
+  color: #ffffff;
+  font-size: 11pt;
+  border: none;
+  text-align: right;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+table#tabelaespec td.cd {
+  background-color: #cecece;
+  font-family: arial;
+  color: black;
+  font-size: 11pt;
+  text-align: left;
+}
+
+table#tabelaespec caption {
+  color: #888888;
+  font-size: 14pt;
+  font-family: Arial;
+  font-weight: bolder;
+}
+
+table#tabelaespec span {
+  color: #888888;
+  font-size: 7pt;
+  font-family: Arial;
+  font-weight: bold;
+  display: block;
+  float: right;
+  margin-top: 10px;
+
+}
+
+/*Formatação dos Tópicos*/
+
+hgroup#explication h2 {
+  padding: 4px;
+  background-color: #ddd;
+  font-family: arial;
+  color: rgba(0,0,0,0.6);
+  font-size: 14pt;
+
+}
+
+
+hgroup#data h2 {
+  padding: 4px;
+  background-color: #ddd;
+  font-family: arial;
+  color: rgba(0,0,0,0.6);
+  font-size: 14pt;
+
+}
+
+h2#especificacao {
+  padding: 4px;
+  background-color: #ddd;
+  font-family: arial;
+  color: rgba(0,0,0,0.6);
+  font-size: 14pt;
+
+}
+
+hgroup#funcionalidade h2 {
+  padding: 4px;
+  background-color: #ddd;
+  font-family: arial;
+  color: rgba(0,0,0,0.6);
+  font-size: 14pt;
+
+}
+
+hgroup#utilidades h2 {
+  padding: 4px;
+  background-color: #ddd;
+  font-family: arial;
+  color: rgba(0,0,0,0.6);
+  font-size: 14pt;
+
+}
+
+ /* Formatação das outras notícias*/
+
+hgroup#outros {
+  display: block;
+  background-color: #ddd;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);;
+  width: 350px;
+  margin-top: 10px;
+  padding: 10px;
+  float: right;
+}
+
+hgroup#outros h2 {
+  font-family: 'fontecomputer';
+  font-size: 13pt;
+  position: relative;
+  top: 10px;
+  color: rgba(0,0,0,.6);
+  margin-left: 5px;
+}
+
+hgroup#outros h3 {
+  padding: 4px;
+  background-color: #606060;
+  margin-right: 8px;
+  margin-left: 8px;
+  color: white;
+  font-size: 12pt;
+  font-family: arial;
+  font-weight: bold;
+}
+
+hgroup#outros p {
+   margin-right: 8px;
+   margin-left: 8px;
+   font-size: 12pt;
+}
+
+/*Formatação link Project Glass*/
+
+hgroup#explication a {
+  color: #606060;
+  text-decoration: none;
+}
+
+hgroup#explication a:hover {
+  text-decoration: underline;
+}
+
+/*Foematação do Arquivo Specs*/
+
+hgroup#arquivospec h1{
+  font-family: 'fontecomputer';
+  color: #888888;
+  font-size: 13pt;
+  top: 10px;
+  position: relative;
+}
+
+hgroup#arquivospec h2{
+   color: rgba(0,0,0,0.3);
+  font-family: 'Tittilium Web', sans-serif;
+  font-size: 10pt;
+}
+
+hgroup#arquivospec h3{
+  color: rgba(0,0,0,.3);
+  font-size: 11pt;
+  font-family: arial;
+  position: relative;
+  top: -8px;
+}
+
+hgroup#arquivospec h4{
+  color: rgba(0,0,0,.5);
+  font-size: 7pt;
+  font-family: arial;
+  position: absolute;
+  float: right;
+  top: 260px;
+  right: 300px;
+}
+
+hgroup#arquivospec p{
+  margin-left: 11px;
+  position: relative;
+  top: 10px;
+}
+
+hgroup#cabecalho_galeria h1{
+  font-family: 'fontecomputer';
+  color: #888888;
+  font-size: 13pt;
+  position: relative;
+  top: 12px;
+}
+
+hgroup#cabecalho_galeria h2{
+  color: rgba(0,0,0,0.3);
+  font-family: 'Tittilium Web', sans-serif;
+  font-size: 10pt;
+}
+
+hgroup#cabecalho_galeria h3{
+   color: rgba(0,0,0,0.3);
+  font-size: 10pt;
+  font-family: arial;
+  position: relative;
+}
+
+
+hgroup#cabecalho_galeria h4{
+  color: rgba(0,0,0,.5);
+  font-size: 7pt;
+  position: relative;
+  left: 780px;
+  font-family: bolder;
+}
+
+hgroup#cabecalho_galeria p{
+  margin-left: 15px;
+  position: relative;
+  }
+
+
+hgroup#grupo-multimidia h1{
+  font-family: 'fontecomputer';
+  color: #888888;
+  font-size: 13pt;
+  position: relative;
+  top: 11px;
+}
+
+hgroup#grupo-multimidia h2{
+  color: rgba(0,0,0,0.3);
+  font-family: 'Tittilium Web', sans-serif;
+  font-size: 10pt;
+}
+
+hgroup#grupo-multimidia h3{
+  color: rgba(0,0,0,0.3);
+  font-size: 10pt;
+  font-family: arial;
+  position: relative;
+
+}
+
+hgroup#grupo-multimidia h4{
+  color: rgba(0,0,0,.5);
+  font-size: 7pt;
+  font-family: arial;
+  position: absolute;
+  float: right;
+  top: 260px;
+  right: 300px;
+}
+
+
+h1#audio_video {
+  background-color: #ddd;
+  padding: 6px;
+  font-family: arial;
+  font-size: 12pt;
+  color: rgba(0,0,0,.6);
+  top: 10px;
+  position: relative;
+}
+
+hgroup#grupo-multimidia p{
+  margin-left: 11px;
+  position: relative;
+  top: 10px;
+}
+
+hgroup#outros video {
+  position: relative;
+}
+ 
+video#oculos-vida {
+  width: 350px;
+}
+
+video#super-humano {
+  width: 500px;
+}
+
+
+/*Formatação do Cabeçalho Formulário*/
+
+hgroup#cabeca_formulario h1{
+  font-family: 'fontecomputer';
+  color: #888888;
+  font-size: 13pt;
+  position: relative;
+  top: 11px;
+}
+
+hgroup#cabeca_formulario h2{
+  color: rgba(0,0,0,0.3);
+  font-family: 'Tittilium Web', sans-serif;
+  font-size: 10pt;
+}
+
+hgroup#cabeca_formulario h3{
+  color: rgba(0,0,0,0.3);
+  font-size: 10pt;
+  font-family: arial;
+  position: relative;
+
+}
+
+hgroup#cabeca_formulario h4{
+  color: rgba(0,0,0,.5);
+  font-size: 7pt;
+  font-family: arial;
+  position: absolute;
+  float: right;
+  top: 260px;
+  right: 300px;
+}

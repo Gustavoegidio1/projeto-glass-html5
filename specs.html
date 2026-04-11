@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tudo sobre Gloogle Glass</title>
+  <link rel="stylesheet" href="_css/estilo.css"> 
+  <link rel="stylesheet" href="_css/specs.css">
+
+</head>
+<script src="_javascript/funcoes.js">
+</script>
+<body>
+  <div id="interface">
+
+ <header id="cabecalho">
+   <hgroup>
+   <h1>Google Glass</h1>
+   <h2>A revolução do Google está chegando</h2>
+   </hgroup>
+ 
+   <img id="icone" src="_imagens/glass-oculos-preto-peq.png" title="óculos google glass">
+
+<nav id="menu">
+<h1>Menu Principal</h1>
+  <ul type="disc">
+    <li onmouseover="mudaImagem('_imagens/home.png')" onmouseout="mudaImagem('_imagens/especificacoes.png')"><a href="index.html">Home</a></li>
+    <li onmouseover="mudaImagem('_imagens/especificacoes.png')" onmouseout="mudaImagem('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+    <li onmouseover="mudaImagem('_imagens/fotos.png')" onmouseout="mudaImagem('_imagens/especificacoes.png')"><a href="fotos.html">Fotos</a></li>
+    <li onmouseover="mudaImagem('_imagens/multimidia.png')" onmouseout="mudaImagem('_imagens/especificacoes.png')"><a href="multimidia.html">Multimídia</a></li>
+    <li onmouseover="mudaImagem('_imagens/contato.png')" onmouseout="mudaImagem('_imagens/especificacoes.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+  </ul>
+</nav>
+</header>
+
+<hgroup id="arquivospec">
+<h2>Glass > Especificações</h2>
+<h1>Raio-X no Google Glass</h1>
+<h3>por Gustavo Egidio</h3>
+<h4>Atualizado em 27/Março/2026</h4>
+
+<p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai levar a um lugar cheio de novas informações.</p>
+
+</hgroup>
+
+<section id="conteudo">
+  <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa"> 
+  <map name="meumapa">
+   <area shape"rect" coords="182,209,272,257" href="google-glass.html#tela" target="janela"/>
+   <area shape"circle" coords="147,234,169,254" href="google-glass.html#camera" target="janela"/>
+   <area shape="rect" coords="23,145,87,251" href="google-glass.html#sensores" target="janela"/>
+   <area shape="circle" coords="65,41,88,62" href="google-glass.html#gadjets" target="janela"/>
+  </map>
+  <iframe src="google-glass.html" name="janela" id="frame-spec" scrolling="no"></iframe>
+</section>
+
+<footer id="rodape">
+<p>Copyright &copy; 2026 - by Gustavo Egidio</p>
+</footer>
+</div>
+</body>
+</html>
